@@ -1,8 +1,5 @@
 HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+target
 
 ### STS ###
 .apt_generated
@@ -12,11 +9,6 @@ target/
 .settings
 .springBeans
 .sts4-cache
-.dockerignore
-target
-Dockerfile
-docker-compose.yml
-backend.yaml
 
 ### IntelliJ IDEA ###
 .idea
@@ -36,3 +28,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+.dockerignore
+docker-compose.yml
+Dockerfile
