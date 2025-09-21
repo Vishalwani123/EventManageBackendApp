@@ -34,7 +34,7 @@ build/
 ### VS Code ###
 .vscode/
 
-
+# Docker
 .dockerignore
-docker-compose.yml
 Dockerfile
+docker-compose.yml
