@@ -12,6 +12,11 @@ target/
 .settings
 .springBeans
 .sts4-cache
+.dockerignore
+target
+Dockerfile
+docker-compose.yml
+backend.yaml
 
 ### IntelliJ IDEA ###
 .idea
