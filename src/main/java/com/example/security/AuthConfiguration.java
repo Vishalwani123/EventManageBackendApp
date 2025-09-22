@@ -30,7 +30,7 @@ public class AuthConfiguration {
         return http
         		.cors(cors -> cors.configurationSource(request -> {
                     CorsConfiguration config = new CorsConfiguration();
-                    config.setAllowedOriginPatterns(List.of("http://localhost:4000", "http://localhost:3000"));
+                    config.setAllowedOriginPatterns(List.of("http://localhost:4000", "http://localhost:3000", "https://event-manage-frontend-app.vercel.app"));
                     config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
                     config.setAllowedHeaders(List.of("*"));
                     config.setAllowCredentials(true);
